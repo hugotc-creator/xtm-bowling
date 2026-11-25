@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Ilustración de producto XTM Bowling">
+  <rect x="146" y="78" width="30" height="86" rx="15" fill="#3a4149"/><rect x="182" y="62" width="30" height="102" rx="15" fill="#3a4149"/><rect x="218" y="70" width="30" height="94" rx="15" fill="#3a4149"/><rect x="254" y="88" width="30" height="76" rx="15" fill="#3a4149"/>
+  <rect x="146" y="140" width="138" height="104" rx="18" fill="#3a4149"/>
+  <ellipse cx="126" cy="196" rx="22" ry="38" transform="rotate(-18 126 196)" fill="#3a4149"/>
+  <rect x="124" y="232" width="182" height="124" rx="20" fill="#15181c"/>
+  <rect x="112" y="252" width="206" height="26" rx="8" fill="#c8102e"/>
+  <rect x="112" y="302" width="206" height="26" rx="8" fill="#c8102e"/>
+  <rect x="300" y="244" width="34" height="42" rx="8" fill="#3a4149" opacity=".85"/>
+  <rect x="300" y="294" width="34" height="42" rx="8" fill="#3a4149" opacity=".85"/>
+  <path d="M150 346h130" stroke="#f2f4f7" stroke-width="6" stroke-linecap="round" opacity=".5" fill="none"/>
+</svg>

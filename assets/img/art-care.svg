@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Ilustración de producto XTM Bowling">
+  <path d="M76 212h132c10 0 18 8 18 18v104c0 10-8 18-18 18H76c-10 0-18-8-18-18V230c0-10 8-18 18-18Z" fill="#3a4149"/>
+  <path d="M58 262h168M58 304h168" stroke="#f2f4f7" stroke-width="7" opacity=".75" fill="none"/>
+  <path d="M258 128h66c14 0 24 10 24 24v180c0 14-10 24-24 24h-66c-14 0-24-10-24-24V152c0-14 10-24 24-24Z" fill="#15181c"/>
+  <rect x="272" y="84" width="38" height="48" rx="8" fill="#3a4149"/>
+  <rect x="264" y="62" width="54" height="26" rx="8" fill="#15181c"/>
+  <rect x="252" y="186" width="78" height="76" rx="8" fill="#c8102e"/>
+  <path d="M266 300h50" stroke="#f2f4f7" stroke-width="7" opacity=".8" fill="none"/>
+</svg>

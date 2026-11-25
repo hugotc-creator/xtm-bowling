@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pista de bowling con pinos al fondo">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071a33"/>
+      <stop offset=".55" stop-color="#0b2545"/>
+      <stop offset="1" stop-color="#04101f"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9924e" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#c9924e" stop-opacity=".9"/>
+    </linearGradient>
+    <radialGradient id="spot" cx=".75" cy=".42" r=".42">
+      <stop offset="0" stop-color="#8fc4ff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#8fc4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ball" x1=".25" y1=".15" x2=".8" y2="1">
+      <stop offset="0" stop-color="#2a3442"/>
+      <stop offset="1" stop-color="#0c1017"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#spot)"/>
+
+  <!-- pista en perspectiva -->
+  <path d="M1110 470 L1290 470 L1600 900 L560 900 Z" fill="url(#lane)"/>
+  <g stroke="#f6e6cd" stroke-opacity=".3" stroke-width="2" fill="none">
+    <path d="M1150 470 L1030 900M1190 470 L1240 900M1230 470 L1450 900"/>
+  </g>
+  <path d="M1110 470 L1290 470 L1600 900 L560 900 Z" fill="none" stroke="#f6e6cd" stroke-opacity=".35" stroke-width="3"/>
+
+  <!-- canales laterales -->
+  <path d="M1110 470 L560 900 L470 900 L1086 470 Z" fill="#061426" opacity=".85"/>
+  <path d="M1290 470 L1600 900 L1600 820 L1314 470 Z" fill="#061426" opacity=".85"/>
+
+  <!-- pinos -->
+  <g><path transform="translate(1148 352) scale(0.3)" fill="#eef2f7" opacity="0.75" d="M0-140c17 0 30 17 30 39 0 17-7 29-12 39 13 15 23 37 23 64 0 37-18 60-41 60s-41-23-41-60c0-27 10-49 23-64-5-10-12-22-12-39 0-22 13-39 30-39Z"/><path transform="translate(1148 352) scale(0.3)" fill="#c8102e" opacity="0.75" d="M-26-46h52v16h-52zM-26-20h52v16h-52z"/><path transform="translate(1196 352) scale(0.3)" fill="#eef2f7" opacity="0.8" d="M0-140c17 0 30 17 30 39 0 17-7 29-12 39 13 15 23 37 23 64 0 37-18 60-41 60s-41-23-41-60c0-27 10-49 23-64-5-10-12-22-12-39 0-22 13-39 30-39Z"/><path transform="translate(1196 352) scale(0.3)" fill="#c8102e" opacity="0.8" d="M-26-46h52v16h-52zM-26-20h52v16h-52z"/><path transform="translate(1244 352) scale(0.3)" fill="#eef2f7" opacity="0.75" d="M0-140c17 0 30 17 30 39 0 17-7 29-12 39 13 15 23 37 23 64 0 37-18 60-41 60s-41-23-41-60c0-27 10-49 23-64-5-10-12-22-12-39 0-22 13-39 30-39Z"/><path transform="translate(1244 352) scale(0.3)" fill="#c8102e" opacity="0.75" d="M-26-46h52v16h-52zM-26-20h52v16h-52z"/><path transform="translate(1172 392) scale(0.34)" fill="#eef2f7" opacity="0.9" d="M0-140c17 0 30 17 30 39 0 17-7 29-12 39 13 15 23 37 23 64 0 37-18 60-41 60s-41-23-41-60c0-27 10-49 23-64-5-10-12-22-12-39 0-22 13-39 30-39Z"/><path transform="translate(1172 392) scale(0.34)" fill="#c8102e" opacity="0.9" d="M-26-46h52v16h-52zM-26-20h52v16h-52z"/><path transform="translate(1220 392) scale(0.34)" fill="#eef2f7" opacity="0.9" d="M0-140c17 0 30 17 30 39 0 17-7 29-12 39 13 15 23 37 23 64 0 37-18 60-41 60s-41-23-41-60c0-27 10-49 23-64-5-10-12-22-12-39 0-22 13-39 30-39Z"/><path transform="translate(1220 392) scale(0.34)" fill="#c8102e" opacity="0.9" d="M-26-46h52v16h-52zM-26-20h52v16h-52z"/><path transform="translate(1196 436) scale(0.38)" fill="#eef2f7" opacity="1.0" d="M0-140c17 0 30 17 30 39 0 17-7 29-12 39 13 15 23 37 23 64 0 37-18 60-41 60s-41-23-41-60c0-27 10-49 23-64-5-10-12-22-12-39 0-22 13-39 30-39Z"/><path transform="translate(1196 436) scale(0.38)" fill="#c8102e" opacity="1.0" d="M-26-46h52v16h-52zM-26-20h52v16h-52z"/></g>
+
+  <!-- bola rodando -->
+  <g transform="translate(760 720) scale(.92)">
+    <ellipse cx="0" cy="150" rx="168" ry="26" fill="#02070e" opacity=".55"/>
+    <circle r="150" fill="url(#ball)"/>
+    <path d="M-150 0a150 150 0 0 1 108-144A188 188 0 0 0-150 0Z" fill="#c8102e" opacity=".92"/>
+    <ellipse cx="-44" cy="-74" rx="17" ry="21" fill="#e9edf2" opacity=".9"/>
+    <ellipse cx="14" cy="-86" rx="17" ry="21" fill="#e9edf2" opacity=".9"/>
+    <ellipse cx="-14" cy="-16" rx="20" ry="24" fill="#e9edf2" opacity=".9"/>
+    <path d="M-120 60a150 150 0 0 0 190 66" stroke="#55627a" stroke-width="6" fill="none" opacity=".6"/>
+  </g>
+
+  <!-- viñeta -->
+  <path d="M0 0h1600v900H0Z" fill="none"/>
+  <rect width="1600" height="900" fill="#04101f" opacity=".12"/>
+</svg>

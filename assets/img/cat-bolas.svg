@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="XTM Bowling">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2b52"/>
+      <stop offset="1" stop-color="#050f1f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".55">
+      <stop offset="0" stop-color="#2b6fb5" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2b6fb5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#g)"/>
+  <rect width="800" height="900" fill="url(#glow)"/>
+  <g opacity=".12" stroke="#ffffff" stroke-width="2">
+    <path d="M0 640h800M0 700h800M0 760h800"/>
+  </g>
+  <g transform="translate(200 230) scale(1.0)">
+  <circle cx="200" cy="200" r="152" fill="#f2f4f7"/>
+  <path d="M200 48a152 152 0 0 1 107 260A152 152 0 0 0 200 48Z" fill="#9fb2cc" opacity=".45"/>
+  <path d="M88 118a152 152 0 0 1 196-54 190 190 0 0 0-196 54Z" fill="#c8102e" opacity=".9"/>
+  <ellipse cx="168" cy="152" rx="18" ry="22" transform="rotate(-12 168 152)" fill="#f7f8fa" opacity=".92"/>
+  <ellipse cx="216" cy="136" rx="18" ry="22" transform="rotate(-12 216 136)" fill="#f7f8fa" opacity=".92"/>
+  <ellipse cx="206" cy="216" rx="21" ry="25" transform="rotate(-12 206 216)" fill="#f7f8fa" opacity=".92"/>
+  <path d="M104 262a152 152 0 0 0 148 86" fill="none" stroke="#9fb2cc" stroke-width="5" opacity=".5"/>
+</g>
+</svg>

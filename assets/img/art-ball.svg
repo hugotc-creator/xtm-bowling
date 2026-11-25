@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Ilustración de producto XTM Bowling">
+  <circle cx="200" cy="200" r="152" fill="#15181c"/>
+  <path d="M200 48a152 152 0 0 1 107 260A152 152 0 0 0 200 48Z" fill="#3a4149" opacity=".45"/>
+  <path d="M88 118a152 152 0 0 1 196-54 190 190 0 0 0-196 54Z" fill="#c8102e" opacity=".9"/>
+  <ellipse cx="168" cy="152" rx="18" ry="22" transform="rotate(-12 168 152)" fill="#f7f8fa" opacity=".92"/>
+  <ellipse cx="216" cy="136" rx="18" ry="22" transform="rotate(-12 216 136)" fill="#f7f8fa" opacity=".92"/>
+  <ellipse cx="206" cy="216" rx="21" ry="25" transform="rotate(-12 206 216)" fill="#f7f8fa" opacity=".92"/>
+  <path d="M104 262a152 152 0 0 0 148 86" fill="none" stroke="#3a4149" stroke-width="5" opacity=".5"/>
+</svg>

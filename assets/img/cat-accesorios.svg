@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="XTM Bowling">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2b52"/>
+      <stop offset="1" stop-color="#050f1f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".55">
+      <stop offset="0" stop-color="#2b6fb5" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2b6fb5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#g)"/>
+  <rect width="800" height="900" fill="url(#glow)"/>
+  <g opacity=".12" stroke="#ffffff" stroke-width="2">
+    <path d="M0 640h800M0 700h800M0 760h800"/>
+  </g>
+  <g transform="translate(200 230) scale(1.0)">
+  <path d="M76 212h132c10 0 18 8 18 18v104c0 10-8 18-18 18H76c-10 0-18-8-18-18V230c0-10 8-18 18-18Z" fill="#9fb2cc"/>
+  <path d="M58 262h168M58 304h168" stroke="#f2f4f7" stroke-width="7" opacity=".75" fill="none"/>
+  <path d="M258 128h66c14 0 24 10 24 24v180c0 14-10 24-24 24h-66c-14 0-24-10-24-24V152c0-14 10-24 24-24Z" fill="#f2f4f7"/>
+  <rect x="272" y="84" width="38" height="48" rx="8" fill="#9fb2cc"/>
+  <rect x="264" y="62" width="54" height="26" rx="8" fill="#f2f4f7"/>
+  <rect x="252" y="186" width="78" height="76" rx="8" fill="#c8102e"/>
+  <path d="M266 300h50" stroke="#f2f4f7" stroke-width="7" opacity=".8" fill="none"/>
+</g>
+</svg>

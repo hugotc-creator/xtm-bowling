@@ -1,0 +1,362 @@
+[
+  {
+    "id": "storm-phaze-ii",
+    "nombre": "Storm Phaze II",
+    "marca": "Storm",
+    "categoria": "Bolas",
+    "precio": 209,
+    "precioAnterior": 239,
+    "art": "ball",
+    "badge": "Oferta",
+    "destacado": true,
+    "stock": "disponible",
+    "descripcion": "La reactiva de alto rendimiento más vendida del taller. Núcleo asimétrico y cobertura TX-16 para un arco fuerte y continuo en aceite medio.",
+    "especificaciones": {
+      "Tipo de cobertura": "Reactiva perlada TX-16",
+      "Núcleo": "Velocity asimétrico",
+      "Condición de pista": "Aceite medio a medio-largo",
+      "Pesos disponibles": "12 a 16 lb",
+      "RG / Diferencial": "2.49 / 0.051"
+    }
+  },
+  {
+    "id": "hammer-black-widow",
+    "nombre": "Hammer Black Widow 2.0",
+    "marca": "Hammer",
+    "categoria": "Bolas",
+    "precio": 235,
+    "precioAnterior": null,
+    "art": "ball",
+    "badge": "Nuevo",
+    "destacado": true,
+    "stock": "disponible",
+    "descripcion": "Reacción agresiva en la parte final de la pista. Pensada para jugadores con revoluciones altas que buscan una entrada fuerte al bolsillo.",
+    "especificaciones": {
+      "Tipo de cobertura": "Aggression Solid",
+      "Núcleo": "Gas Mask asimétrico",
+      "Condición de pista": "Aceite medio a pesado",
+      "Pesos disponibles": "12 a 16 lb",
+      "RG / Diferencial": "2.50 / 0.058"
+    }
+  },
+  {
+    "id": "roto-grip-hustle-ink",
+    "nombre": "Roto Grip Hustle Ink",
+    "marca": "Roto Grip",
+    "categoria": "Bolas",
+    "precio": 129,
+    "precioAnterior": null,
+    "art": "ball",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "La entrada ideal al mundo de las bolas reactivas: control predecible y buen precio para quien da el salto desde una bola de casa.",
+    "especificaciones": {
+      "Tipo de cobertura": "Reactiva sólida",
+      "Núcleo": "Hustle simétrico",
+      "Condición de pista": "Aceite medio",
+      "Pesos disponibles": "10 a 16 lb",
+      "RG / Diferencial": "2.57 / 0.031"
+    }
+  },
+  {
+    "id": "brunswick-rhino",
+    "nombre": "Brunswick Rhino",
+    "marca": "Brunswick",
+    "categoria": "Bolas",
+    "precio": 109,
+    "precioAnterior": 125,
+    "art": "ball",
+    "badge": "Oferta",
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Un clásico del inventario. Reacción suave y continua, perfecta como segunda bola o como primera bola perforada a medida.",
+    "especificaciones": {
+      "Tipo de cobertura": "R-16 reactiva",
+      "Núcleo": "Rhino simétrico",
+      "Condición de pista": "Aceite ligero a medio",
+      "Pesos disponibles": "8 a 16 lb",
+      "RG / Diferencial": "2.58 / 0.030"
+    }
+  },
+  {
+    "id": "motiv-venom-shock",
+    "nombre": "Motiv Venom Shock",
+    "marca": "Motiv",
+    "categoria": "Bolas",
+    "precio": 195,
+    "precioAnterior": null,
+    "art": "ball",
+    "badge": null,
+    "destacado": true,
+    "stock": "ultimas",
+    "descripcion": "Lectura temprana de la pista con salida limpia del aceite. La favorita de los jugadores de liga que necesitan repetir el tiro semana tras semana.",
+    "especificaciones": {
+      "Tipo de cobertura": "Turmoil MFS perlada",
+      "Núcleo": "Gear simétrico",
+      "Condición de pista": "Aceite medio",
+      "Pesos disponibles": "12 a 16 lb",
+      "RG / Diferencial": "2.49 / 0.039"
+    }
+  },
+  {
+    "id": "storm-ice-spare",
+    "nombre": "Storm Ice Storm",
+    "marca": "Storm",
+    "categoria": "Bolas",
+    "precio": 95,
+    "precioAnterior": null,
+    "art": "ball",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Bola de plástico para bolos sueltos y tiros rectos. No lee el aceite, así que va donde la apuntas: imprescindible en la bolsa de competición.",
+    "especificaciones": {
+      "Tipo de cobertura": "Poliéster",
+      "Núcleo": "Simétrico de plástico",
+      "Condición de pista": "Cualquiera (tiro recto)",
+      "Pesos disponibles": "10 a 16 lb",
+      "RG / Diferencial": "2.57 / 0.015"
+    }
+  },
+  {
+    "id": "dexter-sst-8-pro",
+    "nombre": "Dexter SST 8 Pro",
+    "marca": "Dexter",
+    "categoria": "Zapatos",
+    "precio": 269,
+    "precioAnterior": null,
+    "art": "shoe",
+    "badge": "Pro Shop",
+    "destacado": true,
+    "stock": "disponible",
+    "descripcion": "Zapato de competición con suela y talón intercambiables. Ajustas el deslizamiento al aproche de cada bolera en segundos.",
+    "especificaciones": {
+      "Tipo": "Competición, suela intercambiable",
+      "Mano": "Derecha o izquierda (indicar al pedir)",
+      "Material": "Piel con paneles de microfibra",
+      "Tallas disponibles": "39 a 46 EU",
+      "Incluye": "3 suelas, 2 talones y bolsa de transporte"
+    }
+  },
+  {
+    "id": "dexter-ricky-iv",
+    "nombre": "Dexter Ricky IV",
+    "marca": "Dexter",
+    "categoria": "Zapatos",
+    "precio": 79,
+    "precioAnterior": 89,
+    "art": "shoe",
+    "badge": "Oferta",
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "El zapato de entrada con mejor relación precio-duración. Suela universal que desliza con ambos pies, ideal para liga recreativa.",
+    "especificaciones": {
+      "Tipo": "Suela universal fija",
+      "Mano": "Ambidiestro",
+      "Material": "Sintético transpirable",
+      "Tallas disponibles": "38 a 47 EU",
+      "Incluye": "Par de cordones de repuesto"
+    }
+  },
+  {
+    "id": "kr-strikeforce-flyer",
+    "nombre": "KR Strikeforce Flyer",
+    "marca": "KR Strikeforce",
+    "categoria": "Zapatos",
+    "precio": 59,
+    "precioAnterior": null,
+    "art": "shoe",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Ligero, cómodo y sin complicaciones. Perfecto para quien juega una o dos veces al mes y quiere dejar de alquilar zapatos.",
+    "especificaciones": {
+      "Tipo": "Suela universal fija",
+      "Mano": "Ambidiestro",
+      "Material": "Sintético con malla",
+      "Tallas disponibles": "39 a 46 EU",
+      "Incluye": "Plantilla acolchada"
+    }
+  },
+  {
+    "id": "brunswick-tzone-dama",
+    "nombre": "Brunswick TZone Mujer",
+    "marca": "Brunswick",
+    "categoria": "Zapatos",
+    "precio": 65,
+    "precioAnterior": null,
+    "art": "shoe",
+    "badge": null,
+    "destacado": false,
+    "stock": "ultimas",
+    "descripcion": "Horma femenina con soporte de arco reforzado. Deslizamiento suave y acabado que aguanta una temporada completa de liga.",
+    "especificaciones": {
+      "Tipo": "Suela universal fija",
+      "Mano": "Ambidiestro",
+      "Material": "Sintético acolchado",
+      "Tallas disponibles": "36 a 42 EU",
+      "Incluye": "Bolsa de tela"
+    }
+  },
+  {
+    "id": "storm-rolling-thunder-3",
+    "nombre": "Storm Rolling Thunder 3 Bolas",
+    "marca": "Storm",
+    "categoria": "Bolsas",
+    "precio": 249,
+    "precioAnterior": null,
+    "art": "bag",
+    "badge": "Nuevo",
+    "destacado": true,
+    "stock": "disponible",
+    "descripcion": "Trolley de torneo para tres bolas con ruedas de poliuretano de 5\", asa telescópica y compartimento superior para zapatos hasta la talla 47.",
+    "especificaciones": {
+      "Capacidad": "3 bolas + zapatos",
+      "Ruedas": "5\" poliuretano, rodamiento sellado",
+      "Asa": "Telescópica de aluminio",
+      "Material": "Poliéster 1680D",
+      "Garantía": "3 años del fabricante"
+    }
+  },
+  {
+    "id": "kr-lane-rover-2",
+    "nombre": "KR Lane Rover 2 Bolas",
+    "marca": "KR Strikeforce",
+    "categoria": "Bolsas",
+    "precio": 145,
+    "precioAnterior": 165,
+    "art": "bag",
+    "badge": "Oferta",
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "El equilibrio entre capacidad y peso: dos bolas, zapatos y accesorios en un trolley que sigue cabiendo en el maletero.",
+    "especificaciones": {
+      "Capacidad": "2 bolas + zapatos",
+      "Ruedas": "4\" reforzadas",
+      "Asa": "Telescópica de acero",
+      "Material": "Poliéster 600D",
+      "Garantía": "1 año del fabricante"
+    }
+  },
+  {
+    "id": "brunswick-tzone-single",
+    "nombre": "Brunswick TZone 1 Bola",
+    "marca": "Brunswick",
+    "categoria": "Bolsas",
+    "precio": 45,
+    "precioAnterior": null,
+    "art": "bag",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Bolsa sencilla de hombro con base rígida y bolsillo frontal. La opción práctica para llevar tu bola a la liga del jueves.",
+    "especificaciones": {
+      "Capacidad": "1 bola",
+      "Ruedas": "Sin ruedas (correa de hombro)",
+      "Asa": "Asas reforzadas",
+      "Material": "Poliéster 600D",
+      "Garantía": "1 año del fabricante"
+    }
+  },
+  {
+    "id": "vise-wrist-support",
+    "nombre": "Vise Grip Soporte de Muñeca",
+    "marca": "Vise",
+    "categoria": "Accesorios",
+    "precio": 59,
+    "precioAnterior": null,
+    "art": "wrist",
+    "badge": null,
+    "destacado": true,
+    "stock": "disponible",
+    "descripcion": "Soporte metálico ajustable que fija la muñeca y aumenta las revoluciones sin forzar el antebrazo. Se regula en tres ejes.",
+    "especificaciones": {
+      "Mano": "Derecha o izquierda",
+      "Ajuste": "Muñeca, palma y dedos",
+      "Material": "Aluminio con forro de neopreno",
+      "Tallas": "S, M y L",
+      "Uso recomendado": "Jugadores de liga y competición"
+    }
+  },
+  {
+    "id": "turbo-quad-grips",
+    "nombre": "Turbo Quad Grips (pack 10)",
+    "marca": "Turbo",
+    "categoria": "Accesorios",
+    "precio": 19.9,
+    "precioAnterior": null,
+    "art": "care",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Insertos de silicona para los agujeros de los dedos. Mejoran el agarre y reducen la presión en la articulación al soltar la bola.",
+    "especificaciones": {
+      "Contenido": "10 insertos",
+      "Medidas": "5/8\" a 1\" (indicar al pedir)",
+      "Material": "Silicona",
+      "Instalación": "Gratis en el taller con tu compra",
+      "Compatibilidad": "Agujeros estándar perforados"
+    }
+  },
+  {
+    "id": "storm-rough-buff",
+    "nombre": "Storm Rough Buff Shammy",
+    "marca": "Storm",
+    "categoria": "Accesorios",
+    "precio": 21,
+    "precioAnterior": null,
+    "art": "care",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Paño de piel que retira el aceite de la bola entre tiradas. Mantiene la reacción constante durante toda la serie.",
+    "especificaciones": {
+      "Material": "Piel curtida",
+      "Medidas": "20 x 20 cm",
+      "Uso": "Limpieza en seco entre tiradas",
+      "Cuidado": "Enjuagar con agua tibia, secar al aire",
+      "Homologación": "Permitido en competición USBC"
+    }
+  },
+  {
+    "id": "monster-tape",
+    "nombre": "Monster Tape (40 piezas)",
+    "marca": "Turbo",
+    "categoria": "Accesorios",
+    "precio": 16,
+    "precioAnterior": null,
+    "art": "care",
+    "badge": null,
+    "destacado": false,
+    "stock": "disponible",
+    "descripcion": "Cinta texturizada para ajustar el calce del pulgar. Imprescindible cuando la mano cambia de volumen entre invierno y verano.",
+    "especificaciones": {
+      "Contenido": "40 piezas precortadas",
+      "Ancho": "3/4\"",
+      "Color": "Negro (texturizada)",
+      "Uso": "Interior del agujero del pulgar",
+      "Compatibilidad": "Cualquier bola perforada"
+    }
+  },
+  {
+    "id": "ebonite-magic-shine",
+    "nombre": "Ebonite Magic Shine 946 ml",
+    "marca": "Ebonite",
+    "categoria": "Accesorios",
+    "precio": 29,
+    "precioAnterior": 34,
+    "art": "care",
+    "badge": "Oferta",
+    "destacado": false,
+    "stock": "agotado",
+    "descripcion": "Limpiador y pulidor homologado para uso en competición. Retira el aceite acumulado y devuelve el brillo de fábrica a la cobertura.",
+    "especificaciones": {
+      "Contenido": "946 ml (32 oz)",
+      "Tipo": "Limpiador y pulidor",
+      "Uso": "Después de cada serie",
+      "Homologación": "USBC, dentro y fuera de competición",
+      "Rendimiento": "Unas 60 aplicaciones"
+    }
+  }
+]

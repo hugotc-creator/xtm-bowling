@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo — XTM Bowling</title>
+<meta name="description" content="Catálogo completo de XTM Bowling en Madrid: bolas reactivas, zapatos de competición, bolsas y accesorios. Filtra por categoría, marca y precio.">
+<meta name="theme-color" content="#0b2545">
+<link rel="icon" href="assets/img/art-pins.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Envíos a toda España en 24/48 h</span>
+    <span>Perforación profesional en tienda</span>
+    <span>Tel. 91 123 45 67</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="logo" href="index.html">
+      <span><span class="logo__mark">XTM</span> Bowling</span>
+      <span class="logo__sub">Pro Shop</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+      <span></span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="#servicios">Taller</a>
+      <a href="ubicacion.html">Ubicación</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--sm" href="ubicacion.html">Visitar la tienda</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light">Catálogo</p>
+      <h1>Equipo de bolos</h1>
+      <p>Inventario de la tienda de Madrid, actualizado. Todos los precios incluyen IVA; la perforación de bolas y la instalación de insertos no tienen coste con tu compra.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="catalog">
+
+      <!-- Filtros -->
+      <aside>
+        <button class="btn btn--ghost btn--sm btn--block filters-toggle" type="button"
+                id="filters-toggle" aria-expanded="false" aria-controls="filters">
+          Mostrar filtros
+        </button>
+        <form class="filters" id="filters" aria-label="Filtros de catálogo">
+          <div class="filters__head">
+            <h2>Filtrar</h2>
+            <button class="filters__reset" type="reset" id="filters-reset">Limpiar</button>
+          </div>
+          <div id="filter-groups"></div>
+          <div class="filter-group">
+            <h3>Precio máximo</h3>
+            <div class="range-row">
+              <input type="range" id="price-range" min="0" max="300" step="10" value="300"
+                     aria-label="Precio máximo">
+              <output id="price-output">300 €</output>
+            </div>
+          </div>
+          <div class="filter-group" style="border-bottom:0">
+            <label class="check">
+              <input type="checkbox" id="only-stock">
+              <span>Solo disponibles</span>
+            </label>
+          </div>
+        </form>
+      </aside>
+
+      <!-- Resultados -->
+      <section aria-label="Productos">
+        <div class="catalog__toolbar">
+          <p class="catalog__count" id="result-count">Cargando…</p>
+          <div class="catalog__search">
+            <label class="skip-link" for="search">Buscar producto</label>
+            <input class="field" type="search" id="search" placeholder="Buscar por nombre o marca…">
+          </div>
+          <div class="catalog__sort">
+            <label for="sort">Ordenar</label>
+            <select class="field" id="sort">
+              <option value="destacado">Destacados primero</option>
+              <option value="precio-asc">Precio: menor a mayor</option>
+              <option value="precio-desc">Precio: mayor a menor</option>
+              <option value="nombre">Nombre A–Z</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="product-grid" id="grid"></div>
+
+        <div class="empty-state" id="empty" hidden>
+          <h3>Sin resultados</h3>
+          <p>Prueba con otra marca o amplía el rango de precio.</p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Servicios del taller -->
+  <section class="section section--bone" id="servicios">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Taller</p>
+          <h2>Servicios en tienda</h2>
+          <p>Trabajos que hacemos el mismo día. Si compraste la bola con nosotros, la perforación va incluida.</p>
+        </div>
+        <a class="text-link" href="ubicacion.html">Pedir cita</a>
+      </div>
+      <div class="services">
+        <article class="service">
+          <p class="service__num">01</p>
+          <h3>Perforación completa</h3>
+          <p>Medición de mano, trazado del layout y perforación. Incluida al comprar tu bola; 45 € por separado.</p>
+        </article>
+        <article class="service">
+          <p class="service__num">02</p>
+          <h3>Cambio de insertos</h3>
+          <p>Sustitución de grips y ajuste del pulgar con cinta. Desde 12 € más el coste de las piezas.</p>
+        </article>
+        <article class="service">
+          <p class="service__num">03</p>
+          <h3>Resuperficiado</h3>
+          <p>Devolvemos la textura de fábrica a la cobertura con lijado progresivo. 35 € por bola.</p>
+        </article>
+        <article class="service">
+          <p class="service__num">04</p>
+          <h3>Tapado y reperforado</h3>
+          <p>Si cambia tu agarre o compras una bola de segunda mano, tapamos los agujeros y perforamos de nuevo. 65 €.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Modal de detalle -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <button class="modal__backdrop" type="button" id="modal-backdrop" aria-label="Cerrar detalle"></button>
+  <div class="modal__panel" id="modal-panel">
+    <button class="modal__close" type="button" id="modal-close" aria-label="Cerrar">&times;</button>
+    <div class="modal__media">
+      <img id="modal-img" src="assets/img/art-ball.svg" alt="">
+    </div>
+    <div class="modal__body">
+      <p class="card__brand" id="modal-brand"></p>
+      <h2 id="modal-title"></h2>
+      <p class="modal__price" id="modal-price"></p>
+      <p class="stock" id="modal-stock"></p>
+      <p class="modal__desc" id="modal-desc"></p>
+      <table class="spec-table">
+        <caption class="skip-link">Especificaciones</caption>
+        <tbody id="modal-specs"></tbody>
+      </table>
+      <a class="btn btn--block" id="modal-cta" href="https://wa.me/34600123456" rel="noopener">Consultar por WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="logo" href="index.html">
+          <span><span class="logo__mark">XTM</span> Bowling</span>
+          <span class="logo__sub">Pro Shop</span>
+        </a>
+        <p>Pro shop de bolos y taller de perforación. Equipo original, asesoramiento honesto y servicio a pie de pista.</p>
+      </div>
+      <div>
+        <h3>Catálogo</h3>
+        <ul>
+          <li><a href="catalogo.html?categoria=Bolas">Bolas</a></li>
+          <li><a href="catalogo.html?categoria=Zapatos">Zapatos</a></li>
+          <li><a href="catalogo.html?categoria=Bolsas">Bolsas</a></li>
+          <li><a href="catalogo.html?categoria=Accesorios">Accesorios</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Servicios</h3>
+        <ul>
+          <li><a href="#servicios">Perforación</a></li>
+          <li><a href="#servicios">Cambio de insertos</a></li>
+          <li><a href="#servicios">Resuperficiado</a></li>
+          <li><a href="#servicios">Asesoramiento de equipo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tienda</h3>
+        <ul>
+          <li><a href="ubicacion.html">Ubicación y horarios</a></li>
+          <li><a href="tel:+34911234567">91 123 45 67</a></li>
+          <li><a href="mailto:hola@xtmbowling.es">hola@xtmbowling.es</a></li>
+          <li><a href="https://wa.me/34600123456" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> XTM Bowling. Todos los derechos reservados.</span>
+      <span>Precios en euros con IVA incluido.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/catalogo.js"></script>
+</body>
+</html>
