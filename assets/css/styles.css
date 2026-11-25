@@ -682,6 +682,7 @@ h4 {
 
 .range-row input {
   flex: 1;
+  accent-color: var(--red);
 }
 
 .field {
