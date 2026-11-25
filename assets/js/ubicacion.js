@@ -83,7 +83,32 @@
     };
   }
 
+  /* El mapa es un iframe de openstreetmap.org: cargarlo de entrada enviaría la
+     IP del visitante a un tercero sin que lo haya pedido, así que solo se
+     inserta cuando pulsa el botón. */
+  function mapaBajoDemanda() {
+    var boton = document.getElementById("map-load");
+    var aviso = document.getElementById("map-consent");
+    var marco = document.getElementById("map-frame");
+    if (!boton || !aviso || !marco) return;
+
+    boton.addEventListener("click", function () {
+      var iframe = document.createElement("iframe");
+      iframe.title = "Mapa con la ubicación de XTM Bowling en Madrid";
+      iframe.loading = "lazy";
+      iframe.referrerPolicy = "no-referrer";
+      iframe.src =
+        "https://www.openstreetmap.org/export/embed.html" +
+        "?bbox=-3.7074%2C40.4512%2C-3.6934%2C40.4602&layer=mapnik&marker=40.4557%2C-3.7004";
+
+      aviso.remove();
+      marco.appendChild(iframe);
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    mapaBajoDemanda();
+
     var momento = ahoraEnMadrid();
 
     var fila = document.querySelector('.hours tr[data-day="' + momento.dia + '"]');

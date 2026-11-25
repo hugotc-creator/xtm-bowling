@@ -47,8 +47,14 @@
     return STOCK[clave] || STOCK.disponible;
   }
 
+  /* Solo se aceptan las ilustraciones que existen en assets/img: así un valor
+     inesperado en productos.json no puede acabar convertido en una ruta rara. */
+  var ILUSTRACIONES = ["ball", "shoe", "bag", "wrist", "care", "pins"];
+
   function ilustracion(producto) {
-    return "assets/img/art-" + (producto.art || "ball") + ".svg";
+    var clave = producto && producto.art;
+    if (ILUSTRACIONES.indexOf(clave) === -1) clave = "ball";
+    return "assets/img/art-" + clave + ".svg";
   }
 
   /** Enlace de WhatsApp con el producto ya escrito en el mensaje. */
@@ -77,7 +83,7 @@
 
     var cuerpo =
       '<span class="card__media">' +
-        '<img src="' + ilustracion(p) + '" alt="' + esc(p.nombre) + '" loading="lazy">' +
+        '<img src="' + esc(ilustracion(p)) + '" alt="' + esc(p.nombre) + '" loading="lazy">' +
         etiqueta +
         '<span class="card__quick">' + esc(opciones.accion || "Ver detalle") + "</span>" +
       "</span>" +
@@ -136,8 +142,17 @@
         if (campo) campo.focus();
         return;
       }
-      // Sitio estático: aún no hay backend que reciba la suscripción.
-      nota.textContent = "¡Listo! Te escribiremos a " + campo.value.trim() + " con las novedades.";
+      /* Sitio estático: no hay servidor que reciba el alta, así que en lugar de
+         fingir una suscripción abrimos el correo del visitante con la petición
+         escrita. Nada sale de su navegador sin que él lo envíe. */
+      var correo = campo.value.trim();
+      var asunto = "Alta en el boletín de XTM Bowling";
+      var cuerpo = "Hola, quiero recibir el boletín de XTM Bowling en esta dirección: " + correo;
+
+      nota.textContent = "Te hemos abierto el correo con el alta preparada: solo tienes que enviarlo.";
+      window.location.href =
+        "mailto:hola@xtmbowling.es?subject=" + encodeURIComponent(asunto) +
+        "&body=" + encodeURIComponent(cuerpo);
       form.reset();
     });
   }

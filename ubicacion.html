@@ -7,9 +7,11 @@
 <meta name="description" content="XTM Bowling está en Madrid: dirección, horarios, teléfono y cómo llegar en metro, autobús o coche al pro shop y taller de perforación.">
 <meta name="theme-color" content="#0b2545">
 <link rel="icon" href="assets/img/art-pins.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src https://www.openstreetmap.org; form-action 'self'; base-uri 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -59,12 +61,12 @@
       <div class="store">
 
         <div>
-          <div class="map-frame">
-            <iframe
-              title="Mapa con la ubicación de XTM Bowling en Madrid"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-3.7074%2C40.4512%2C-3.6934%2C40.4602&amp;layer=mapnik&amp;marker=40.4557%2C-3.7004"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="map-frame" id="map-frame">
+            <div class="map-consent" id="map-consent">
+              <h3>Mapa de la tienda</h3>
+              <p>El mapa lo sirve OpenStreetMap, así que al cargarlo tu dirección IP llega a openstreetmap.org. Por eso no lo cargamos solos.</p>
+              <button class="btn btn--sm" type="button" id="map-load">Cargar el mapa</button>
+            </div>
           </div>
           <div class="store-actions">
             <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle+de+Bravo+Murillo+123,+28020+Madrid" rel="noopener">Cómo llegar</a>
@@ -96,7 +98,7 @@
                 <tr data-day="0"><th scope="row">Domingo</th><td>Cerrado</td></tr>
               </tbody>
             </table>
-            <p class="newsletter__note" style="color:var(--ink-soft)">El taller de perforación atiende hasta una hora antes del cierre.</p>
+            <p class="nota">El taller de perforación atiende hasta una hora antes del cierre.</p>
           </div>
 
           <div class="info-block">
@@ -180,6 +182,10 @@
     </div>
     <div class="footer-bottom">
       <span>© <span data-year>2026</span> XTM Bowling. Todos los derechos reservados.</span>
+      <nav class="footer-legal" aria-label="Información legal">
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="privacidad.html">Política de privacidad</a>
+      </nav>
       <span>Precios en euros con IVA incluido.</span>
     </div>
   </div>
