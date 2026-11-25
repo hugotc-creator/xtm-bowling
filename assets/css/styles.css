@@ -470,6 +470,48 @@ h4 {
   color: rgba(255, 255, 255, 0.82);
 }
 
+/* Página 404 */
+.error-page {
+  background: var(--navy);
+  color: #fff;
+  padding: 96px 0 104px;
+  text-align: center;
+}
+
+.error-page__code {
+  font-family: var(--display);
+  font-size: clamp(64px, 12vw, 132px);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.14);
+  margin: 0 0 8px;
+}
+
+.error-page h1 {
+  font-size: clamp(28px, 4.4vw, 48px);
+}
+
+.error-page > .wrap > p {
+  color: rgba(255, 255, 255, 0.82);
+  max-width: 48ch;
+  margin: 18px auto 32px;
+}
+
+.error-page .hero__actions {
+  justify-content: center;
+}
+
+.error-page__help {
+  font-size: 14px;
+  margin-top: 36px !important;
+}
+
+.error-page__help a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* 6. Secciones de inicio -------------------------------------------------- */
 
 .cat-grid {
@@ -913,6 +955,13 @@ h4 {
   align-items: center;
   justify-content: center;
   padding: 32px;
+}
+
+/* La imagen declara 400x400 para reservar sitio; aquí se deja escalar. */
+.modal__media img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 .modal__body {

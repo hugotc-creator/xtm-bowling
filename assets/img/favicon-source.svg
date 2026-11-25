@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="XTM Bowling">
+  <rect width="64" height="64" fill="#0b2545"/>
+  <circle cx="32" cy="33" r="21" fill="#f2f4f7"/>
+  <path d="M32 12a21 21 0 0 1 18 10 26 26 0 0 0-33 4A21 21 0 0 1 32 12Z" fill="#c8102e"/>
+  <circle cx="26" cy="27" r="3.4" fill="#0b2545"/>
+  <circle cx="37" cy="25" r="3.4" fill="#0b2545"/>
+  <circle cx="33" cy="37" r="3.9" fill="#0b2545"/>
+</svg>

@@ -83,7 +83,8 @@
 
     var cuerpo =
       '<span class="card__media">' +
-        '<img src="' + esc(ilustracion(p)) + '" alt="' + esc(p.nombre) + '" loading="lazy">' +
+        '<img src="' + esc(ilustracion(p)) + '" alt="' + esc(p.nombre) + '"' +
+          ' width="400" height="400" loading="lazy">' +
         etiqueta +
         '<span class="card__quick">' + esc(opciones.accion || "Ver detalle") + "</span>" +
       "</span>" +

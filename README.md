@@ -82,6 +82,17 @@ Son **datos de ejemplo** y hay que cambiarlos en estos sitios:
 - **WhatsApp:** la constante `WHATSAPP` en `assets/js/main.js` y los enlaces `wa.me`
   del HTML
 
+## Iconos y página de error
+
+- `favicon.ico` reúne 16, 32 y 48 px; `assets/img/favicon-source.svg` es el
+  original del que salen, y `assets/img/apple-touch-icon.png` (180 px) es el
+  icono para iOS. Si cambias el diseño, edita el SVG y vuelve a generar los PNG.
+- `404.html` lo sirve GitHub Pages ante cualquier dirección inexistente. Lleva
+  `<base href="/xtm-bowling/">` porque la URL fallida se queda en la barra del
+  navegador y, sin eso, los estilos y los enlaces se romperían. **Si la web pasa
+  a un dominio propio, cambia ese `href` a `/`.** Para verlo en local hay que
+  hacer lo mismo temporalmente.
+
 ## Seguridad y privacidad
 
 Decisiones ya aplicadas, por si hay que mantenerlas:
